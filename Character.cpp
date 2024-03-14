@@ -1,9 +1,4 @@
-//
-// Created by artur on 13/03/2024.
-//
-//
-// Created by Victor Navarro on 13/02/24.
-//
+
 
 #include "Character.h"
 

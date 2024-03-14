@@ -23,22 +23,22 @@ void attack(Character& attacker, Character& target) {
 
 int main() {
     // Se crea el jugador y el enemigo
-    Character mage = Character("Mage", 100, 10, 5, 20);
-    Character enemy = Character("Enemy", 100, 8, 4, 15);
+    Character player = Character("Jonh Wick", 100, 10, 5, 20);
+    Character enemy = Character("ChapoGuzman", 100, 8, 4, 15);
 
     // Semilla para generación de números aleatorios
     srand(time(nullptr));
 
     // Mostrar el estado inicial de los personajes
     cout << "Initial Status:" << endl;
-    cout << mage.getName() << " - Health: " << mage.getHealth() << endl;
+    cout << player.getName() << " - Health: " << player.getHealth() << endl;
     cout << enemy.getName() << " - Health: " << enemy.getHealth() << endl;
     cout << "---------------------------" << endl;
 
     // Bucle hasta que uno de los personajes muera
-    while (mage.getHealth() > 0 && enemy.getHealth() > 0) {
+    while (player.getHealth() > 0 && enemy.getHealth() > 0) {
         // Turno del jugador
-        attack(mage, enemy);
+        attack(player, enemy);
         // Verificar si el enemigo ha muerto
         if (enemy.getHealth() <= 0) {
             cout << enemy.getName() << " has been defeated!" << endl;
@@ -46,10 +46,10 @@ int main() {
         }
 
         // Turno del enemigo
-        attack(enemy, mage);
+        attack(enemy, player);
         // Verificar si el jugador ha muerto
-        if (mage.getHealth() <= 0) {
-            cout << mage.getName() << " has been defeated!" << endl;
+        if (player.getHealth() <= 0) {
+            cout << player.getName() << " has been defeated!" << endl;
             break;
         }
     }
