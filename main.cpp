@@ -5,7 +5,7 @@
 using namespace std;
 
 void attack(Character& attacker, Character& target) {
-    // Calcular el daño aleatorio dentro de un rango basado en el ataque y la defensa
+
     int minDamage = attacker.getAttack() / 2;
     int maxDamage = attacker.getAttack() - target.getDefense();
     if (maxDamage < minDamage)

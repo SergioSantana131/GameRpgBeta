@@ -1,0 +1,3 @@
+"C:\Users\sheko\Documents\Programacion\Apps\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\COMMIT_NUMERO_1.dir/objects.a
+C:\Users\sheko\DOCUME~1\PROGRA~1\Apps\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\COMMIT_NUMERO_1.dir/objects.a @CMakeFiles\COMMIT_NUMERO_1.dir\objects1.rsp
+C:\Users\sheko\DOCUME~1\PROGRA~1\Apps\CLION2~1.4\bin\mingw\bin\G__~1.EXE -Wl,--whole-archive CMakeFiles\COMMIT_NUMERO_1.dir/objects.a -Wl,--no-whole-archive -o COMMIT_NUMERO_1.exe -Wl,--out-implib,libCOMMIT_NUMERO_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\COMMIT_NUMERO_1.dir\linkLibs.rsp

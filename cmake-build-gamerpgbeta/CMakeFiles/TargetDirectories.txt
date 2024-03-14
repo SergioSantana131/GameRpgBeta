@@ -1,0 +1,3 @@
+C:/Users/sheko/Documents/Programacion/Ceti/POO/GameRpgBeta/cmake-build-gamerpgbeta/CMakeFiles/COMMIT_NUMERO_1.dir
+C:/Users/sheko/Documents/Programacion/Ceti/POO/GameRpgBeta/cmake-build-gamerpgbeta/CMakeFiles/edit_cache.dir
+C:/Users/sheko/Documents/Programacion/Ceti/POO/GameRpgBeta/cmake-build-gamerpgbeta/CMakeFiles/rebuild_cache.dir
