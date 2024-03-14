@@ -48,6 +48,8 @@ int main() {
         // Turno del enemigo
         attack(enemy, player);
         // Verificar si el jugador ha muerto
+        cout << "Remaining Health - " << player.getName() << ": " << player.getHealth() << ", " << enemy.getName() << ": " << enemy.getHealth() << endl;
+
         if (player.getHealth() <= 0) {
             cout << player.getName() << " has been defeated!" << endl;
             break;
