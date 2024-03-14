@@ -1,0 +1,3 @@
+D:/P.O.O/COMMIT NUMERO 1/cmake-build-debug/CMakeFiles/COMMIT_NUMERO_1.dir
+D:/P.O.O/COMMIT NUMERO 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/P.O.O/COMMIT NUMERO 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
